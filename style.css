@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+

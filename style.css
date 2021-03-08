@@ -2,12 +2,151 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg.one {
+    background-color: rgb(245, 249, 253);
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+
+.bg.two {
+    background-color: white;
+}
+
+.bg.three {
+    height: 500px;
+    background: url(img/jumbotron.png);
+}
+
+.bg.four {
+    background-color: rgb(245, 249, 253);
+}
+
+.container.five {
+    background-color: white;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.image {
+    margin-top: 50px;
 }
 
 .container {
     width: 1024px;
     margin: auto;
+}
+
+.container.one,
+.container.two {
+    vertical-align: middle;
+    line-height: 80px;
+    color: grey;
+}
+
+.container.four{
+    text-align: center;
+}
+
+.container.five {
+    height: 200px;
+}
+
+.cube {
+    margin-top: 30px;
+    width:40%;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: rgb(55, 71, 89);
+    margin-bottom: 20px;
+}
+
+.subtitle.one {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: rgb(55, 71, 89);
+}
+
+.paragraph {
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.paragraph.two {
+    color: rgb(125, 134, 147);
+}
+
+.hr {
+    border: 1px solid black;
+    width: 50%;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.caps {
+    color: rgb(55, 71, 89);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.feature-list {
+    margin-top: 20px;
+}
+
+.paragraph-one {
+    color: rgb(108, 134, 139);
+    margin-bottom: 40px;
+}
+
+.white {
+    color: white;
+    text-decoration: none;
+}
+
+#book {
+    width: 50%;
+}
+
+.paragraph.one {
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.vr {
+    border-left: 0.5px solid grey;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin:10px;
 }
 
 .column {
@@ -66,6 +205,10 @@ li {
 hr {
     display: inline-block;
     width: 10%;
+}
+
+#woman {
+    width: 50%;
 }
 
 .row::after {

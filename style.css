@@ -83,8 +83,7 @@ html {
 .subtitle-start {
     font-size: 30px;
     color: rgb(55, 71, 89);
-    padding-top: 20px;
-    padding-left: 15px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -278,6 +277,7 @@ html {
 #book {
     width: 50%;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .paragraph.one {
@@ -349,8 +349,9 @@ html {
 }
 
 #woman {
-    width: 50%;
-    text-align: right;
+    width: 60%;
+    float: right;
+    padding-bottom: 50px;
 }
 
 .logo-collab {
@@ -361,10 +362,12 @@ html {
 .column.col-70.collab {
     padding-left: 80px;
     padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 .text-collab {
     padding: 20px;
+    padding-top: 30px;
     padding-left: 50px;
     font-size: 50px;
     color: rgb(55, 71, 89);
@@ -376,5 +379,56 @@ html {
     clear: both;
 }
 
+.bg.footer {
+    background-color: rgb(55, 73, 89);
+}
 
+a {
+    text-decoration: none;
+}
 
+.list-footer {
+    padding-bottom: 20px;
+    list-style-type: none;
+    
+}
+
+.first {
+    padding-top: 30px;
+}
+
+.title-footer {
+    color: white;
+    padding-top: 20px;
+}
+
+.grey{
+    color: rgb(203, 212, 223);
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.ft {
+    margin-left: 10px;
+}
+
+.logo-end {
+    padding-top: 20px;
+}
+
+.paragraph-end {
+    color: white;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+
+.list-end {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.right-end {
+    text-align: right;
+}

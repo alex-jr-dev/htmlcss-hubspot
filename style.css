@@ -370,6 +370,33 @@ html {
     width: 20%;
 }
 
+.social-img {
+    margin-right: 18px;
+    margin-top: 15px;
+    width: 8%;
+}
+
+.social-img:nth-child(1) {
+    width: 3%;
+}
+
+.social-img:nth-child(2) {
+    width: 6%;
+}
+
+.social-img:nth-child(3) {
+    width: 7%;
+}
+
+.social-img:nth-child(4) {
+    width: 6%;
+}
+
+.social-img:nth-child(5) {
+    width: 7%;
+}
+
+
 .column.col-70.collab {
     padding-left: 150px;
     padding-bottom: 50px;

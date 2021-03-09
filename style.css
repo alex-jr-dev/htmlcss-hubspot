@@ -44,6 +44,10 @@ html {
     border-radius: 5px;
 }
 
+.logo {
+    vertical-align: middle;
+}
+
 .image {
     margin-top: 50px;
 }
@@ -77,6 +81,14 @@ html {
     font-size: 30px;
     color: rgb(55, 71, 89);
     margin-bottom: 20px;
+}
+
+.subtitle.collab {
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .subtitle.one {
@@ -315,6 +327,21 @@ html {
 
 #woman {
     width: 50%;
+}
+
+.logo-collab {
+    width: 20%;
+    padding: 15px;
+}
+
+.column.col-70.collab {
+    padding-left: 80px;
+}
+
+.text-collab {
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(55, 71, 89);
 }
 
 .row::after {

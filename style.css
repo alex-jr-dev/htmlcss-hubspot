@@ -28,6 +28,14 @@ html {
     background-color: rgb(245, 249, 253);
 }
 
+.bg.five {
+    background-image: linear-gradient(to right, rgb(75, 168, 182) , rgb(82, 182, 169))
+}
+
+.container.seven {
+    height: 500px;
+}
+
 .container.five {
     background-color: white;
     -moz-box-shadow: 0 0 3px #ccc;
@@ -87,6 +95,17 @@ html {
     color: rgb(55, 71, 89);
 }
 
+.title.award {
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.container.seven {
+    text-align: center;
+}
+
 .paragraph {
     margin-bottom: 20px;
     color: grey;
@@ -94,6 +113,52 @@ html {
 
 .paragraph.two {
     color: rgb(125, 134, 147);
+}
+
+.paragraph.award {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.left-one {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px;
+    height: 120px;
+}
+
+.right-one {
+    border-bottom: 1px solid white;
+    padding: 10px;
+    height: 120px;
+}
+
+.left-two {
+    border-right: 1px solid white;
+    padding: 10px;
+}
+
+.right-two {
+    padding: 10px;
+}
+
+.titleone-award {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    color: white;
+}
+
+.title-award {
+    font-size: 30px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    color: white;
+}
+
+.text-award {
+    font-size: 10px;
+    color: white;
 }
 
 .hr {

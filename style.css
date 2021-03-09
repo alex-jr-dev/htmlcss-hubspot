@@ -346,6 +346,7 @@ html {
 .list {
     display: inline-block;
     margin-right: 5px;
+    color: rgb(55, 73, 89);
 }
 
 #woman {
@@ -393,6 +394,10 @@ a {
     
 }
 
+.blue {
+    color: rgb(39, 68, 90);
+}
+
 .first {
     padding-top: 30px;
 }
@@ -431,4 +436,46 @@ a {
 
 .right-end {
     text-align: right;
+}
+
+.log-in {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.triangle {
+    margin-right: 10px;
+}
+
+.button-log {
+    background-color: rgb(245, 249, 253);
+    border: none;
+    color: rgb(237, 126, 98);
+    border: 2px solid rgb(237, 126, 98);
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button-get {
+    background-color: rgb(237, 126, 98);
+    border: none;
+    color: rgb(245, 249, 253);
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
 }
